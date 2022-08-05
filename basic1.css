@@ -1,0 +1,117 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+
+}
+
+
+.card_content{
+    background-color: yellow;
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* opacity: 0.7; */
+    border-radius: 2em;
+    box-shadow: 0px 6px  20px rgb(37, 36, 28);
+    z-index: 1;
+    /* display: none; */
+    
+
+}
+.boxer{
+    
+    position:absolute;
+    width: 10%;
+    height: 130px;
+    background-color: rgba(219, 57, 57, 0.852);
+    top: 12%;
+    left: 20%;
+    border-radius: 30px  ;
+    box-shadow: 2px 15px 20px rgba(255, 0, 0, 0.221);
+    z-index: -1;
+}
+.boxerend{
+    
+    position:absolute;
+    width: 10%;
+    height: 130px;
+    background-color: rgba(219, 57, 57, 0.852);
+    bottom: 4%;
+    left:72%;
+    border-radius: 30px ;
+    box-shadow: 2px 15px 20px rgba(255, 0, 0, 0.221);
+    z-index: -1;
+}
+.typeinput{
+    
+    
+    width: 70%;
+    height: 40px;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(58, 51, 51);
+    box-shadow: 0px 6px 20px rgba(38, 32, 32, 0.436);
+
+    
+}
+input{
+    
+    color: white;
+    height: 90%;
+    border: 0;
+    outline: 0;
+    background-color: rgba(58, 51, 51, 0);
+    caret-color: yellow;
+    padding-left: 10px;
+    
+    
+
+
+
+}
+input::placeholder {
+    color: rgba(245, 245, 245, 0.646);
+    opacity: 1;
+    
+}
+ul{
+    list-style: none;
+}
+
+
+.card_border{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(58, 51, 51); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.list  li{
+
+    
+    width: 100%;
+    display: flex;
+    
+
+    justify-content: start;
+}
+.sizedBox{
+    width: 20px;
+}
+
+
